@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.header{
+  background-color: #c4c4c4;
+  flex: 39%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.input-container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header input{
+  border: none;
+  border-radius: .5rem;
+  margin-bottom: .7rem;
+  outline: #c4c4c4;
+  padding: 1rem;
+  width: 200px;
+}
+.header button{
+  border: none;
+  border-radius: .3rem;
+  cursor: pointer;
+  font-weight: 600;
+  padding: .6rem 1.2rem;
+} .header button:hover{
+  color: #000;
+  background-color: #cdcdcd;
+  transition: .3s ease-in-out;
+}
+.todoList{
+  flex: 70%; 
+  width: 100%;
+}
+
+.task .content{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: .5rem;
+}
+.task .content span{
+  background-color: #c4c4c4;
+  border-radius: .3rem;
+  display: grid;
+  margin: .3rem;
+  place-items: center;
+  padding: .6rem 2rem;
+}
+.task .content button{ 
+  border: none;
+  border-radius: .3rem;
+  cursor: pointer;
+  font-weight: 600;
+  padding: .6rem 1.2rem;
+} .task .content button:hover{
+  color: #000;
+ background-color: rgb(243, 50, 50);
+  transition: .3s ease-in-out;
+}
