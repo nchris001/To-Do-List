@@ -68,9 +68,21 @@ body{
   border-radius: .3rem;
   cursor: pointer;
   font-weight: 600;
+  margin: 0 .1rem;
   padding: .6rem 1.2rem;
 } .task .content button:hover{
   color: #000;
  background-color: rgb(243, 50, 50);
   transition: .3s ease-in-out;
+} .task .content .edit:hover{
+  color: #000;
+  background-color: #cdcdcd;
+  transition: .3s ease-in-out;
+}
+.todoList input{
+  border-radius: .5rem;
+  margin-bottom: .7rem;
+  border: 1px solid #c4c4c4;
+  outline: none;
+  padding: 1rem;
 }
